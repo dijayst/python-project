@@ -9,8 +9,8 @@ while True:
     
     player=input(Fore.BLUE + "enter either rock,paper,scissors:")
     r1=random.choice (games)
-
-    if player==r1:
+    
+    if  player==r1:
         print("you chose " + player)
         print("computer chose " + r1 )
         print(Fore.YELLOW + name + " its a draw")
