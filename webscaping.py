@@ -50,12 +50,12 @@ def get_gadgetconnect_data(soup):
 
 def get_shein_data(soup):
     data = []
-    product_tiles = soup.find_all('section', {'class': 'multiple-row-card'})
+    product_tiles = soup.find_all('div', {'class': 'waterfall-item'})
     print("Number of Shein products found:", len(product_tiles))
     for item in product_tiles:
-        img = item.find('img', {'class': 'c-goodsitem__img'})['src'] if item.find('img', {'class': 'c-goodsitem__img'}) else None
-        details = item.find('a', {'class': 'c-goodsitem__name'}).text if item.find('a', {'class': 'c-goodsitem__name'}) else None
-        price = item.find('p', {'class': 'product-item__camecase-wrap'}).text if item.find('p', {'class': 'product-item__camecase-wrap'}) else None
+        img = item.find('img', {'class': 'fsp-element product-card__main-img crop-image-container__img'})['src'] if item.find('img', {'class': 'fsp-element product-card__main-img crop-image-container__img'}) else None
+        details = item.find('div', {'class': 'product-card__goods-title-container'}).text if item.find('div', {'class': 'product-card__goods-title-container'}) else None
+        price = item.find('p', {'class': 'product-card__camel-case-price prices-info__sale-price prices-info__sale-price_promo'}).text if item.find('p', {'class': 'product-card__camel-case-price prices-info__sale-price prices-info__sale-price_promo'}) else None
         print(details, img, price)
         data.append({
             'img': img,
@@ -80,8 +80,8 @@ def get_data(url, parser_function):
 asos_data = get_data("https://www.asos.com/women/shoes/heels/cat/?cid=6461", get_asos_data)
 jumia_data = get_data("https://www.jumia.com.ng/computer-accessories/", get_jumia_data)
 gadgetconnect_data = get_data('https://gadgetconnect.co.ke/computers/', get_gadgetconnect_data)
-shein_data = get_data('https://www.shein.com/RecommendSelection/Shoes-sc-017172966.html?adp=&categoryJump=true&ici=www_tab09navbar09&src_identifier=fc%3DShoes%60sc%3DShoes%60tc%3D0%60oc%3D0%60ps%3Dtab09navbar09%60jc%3DitemPicking_017172966&src_module=topcat&src_tab_page_id=page_home1717649548142', get_shein_data)
-
+#shein_data = get_data('https://www.shein.com/RecommendSelection/Shoes-sc-017172966.html?adp=&categoryJump=true&ici=www_tab09navbar09&src_identifier=fc%3DShoes%60sc%3DShoes%60tc%3D0%60oc%3D0%60ps%3Dtab09navbar09%60jc%3DitemPicking_017172966&src_module=topcat&src_tab_page_id=page_home1717649548142', get_shein_data)
+shein_data=get_data('https://m.shein.com/pdsearch/heels/?ici=s1%60EditSearch%60heels%60_fb%60d0%60PagePreSearch&search_source=1&source=search&src_identifier=st%3D2%60sc%3Dheels%60sr%3D0%60ps%3D0&src_module=search&src_tab_page_id=page_pre_search1718014552212',get_shein_data)
 # Combine all data
 all_data = {
     "asos": asos_data,

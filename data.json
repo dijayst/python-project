@@ -439,11 +439,6 @@
         },
         {
             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-            "details": "6 Steps Laptop Adjustable Stand Holder  -White",
-            "price": "\u20a6 2,950"
-        },
-        {
-            "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
             "details": "128 GB Metal  Usb Flash Drive  Adapter Cable  2 In 1 Set",
             "price": "\u20a6 6,950"
         },
@@ -451,6 +446,11 @@
             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
             "details": "Portable Laptop Stand With Mobile Phone Support 2 In 1",
             "price": "\u20a6 7,673"
+        },
+        {
+            "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "details": "6 Steps Laptop Adjustable Stand Holder  -White",
+            "price": "\u20a6 2,950"
         },
         {
             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
@@ -524,8 +524,8 @@
         },
         {
             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-            "details": "Hp EliteBook 840 G6 Intel Core I5 Touchscreen 16GB RAM/1TB SSD/Backlit Keyboard/FP Win 11 Pro",
-            "price": "\u20a6 515,000"
+            "details": "Foldable Laptop Cooler 6-fan Stand Low Noise 6-level For 17\"",
+            "price": "\u20a6 9,990"
         },
         {
             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
@@ -549,13 +549,13 @@
         },
         {
             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-            "details": "Hp EliteBook 840 G6 Touchscreen Intel Core I5 16GB RAM/512GB SSD/Backlit Keyboard/FP Win 11 Pro",
-            "price": "\u20a6 491,535"
+            "details": "Hp EliteBook 840 G6 Intel Core I5 Touchscreen 16GB RAM/1TB SSD/Backlit Keyboard/FP Win 11 Pro",
+            "price": "\u20a6 515,000"
         },
         {
             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-            "details": "2 In 1 High Speed- OTG Adapter Cable USB 3.0 Type-C Adapter Micro USB",
-            "price": "\u20a6 1,290"
+            "details": "Hp EliteBook 840 G6 Touchscreen Intel Core I5 16GB RAM/512GB SSD/Backlit Keyboard/FP Win 11 Pro",
+            "price": "\u20a6 491,535"
         },
         {
             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
@@ -564,5 +564,36 @@
         }
     ],
     "gadgetconnect": [],
-    "shein": []
+    "shein": [
+        {
+            "img": "//img.ltwebstatic.com/images3_pi/2024/05/06/a8/17149629402f156e108e069dc9d0fd48ccd18ebd78_thumbnail_336x.jpg",
+            "details": "Cuccoo Everyday Collection Woman Shoes Fashionable White Strappy High-Heeled Sandals For Women For Summer Graduation Heels Prom Heels Vacation Shoes Summer Sale",
+            "price": "$11.97"
+        },
+        {
+            "img": "//img.ltwebstatic.com/images3_pi/2023/06/13/1686660606b7c84776d6a6293454015760b458a537_thumbnail_336x.jpg",
+            "details": "Elegant White Sandals For Women, Rhinestone Decor Platform Chunky Heeled Ankle Strap Sandals",
+            "price": "$15.75"
+        },
+        {
+            "img": "//img.ltwebstatic.com/images3_pi/2023/01/16/1673869750f0d960910ee7afeabc407cf468149897_thumbnail_336x.jpg",
+            "details": "CUCCOO CHICEST Woman Shoes Bow Decor Stiletto Heeled Satin Ankle Strap Pumps For Summer Graduation Heels Prom Heels Vacation Shoes Summer Sale Elegant Heels",
+            "price": "$13.50"
+        },
+        {
+            "img": "//img.ltwebstatic.com/images3_pi/2024/03/26/e6/1711456114c3a4112bbe21ac1d7ab98e2e21bc9564_thumbnail_336x.jpg",
+            "details": "CUCCOO SZL Woman Shoes High Heeled Shoes For Summer Graduation Heels Prom Heels Vacation Shoes Summer Sale",
+            "price": "$12.73"
+        },
+        {
+            "img": "//img.ltwebstatic.com/images3_pi/2023/05/11/1683772684bcdd059490a0f6e651fee991a99d0bcf_thumbnail_336x.jpg",
+            "details": "CUCCOO SZL Woman Shoes Metallic Thin Strap Chunky Heeled Sandals, Glamorous Gold Strappy Sandals For Summer Graduation Heels Prom Heels Vacation Shoes Summer Sale",
+            "price": "$11.90"
+        },
+        {
+            "img": "//img.ltwebstatic.com/images3_pi/2023/03/30/1680163725944bf85ed201b091a1b2f9852bcec037_thumbnail_336x.jpg",
+            "details": "CUCCOO BIZCHIC Woman Shoes Minimalist Ankle Strap Pumps, Stiletto Heeled Black Glamorous Satin Pumps For Summer Graduation Heels Prom Heels Vacation Shoes Summer Sale",
+            "price": "$15.05"
+        }
+    ]
 }
