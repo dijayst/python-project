@@ -1,3 +1,5 @@
+from colorama import Fore,Back,Style,init
+init(convert=True)
 values=[]
 while  True:
      input_multi="*"
@@ -5,8 +7,8 @@ while  True:
      input_div="/"
      input_sub="-"
 #ask the user to input a value
-     num1=input("enter a value :(or enter done)")
-
+     num1=input(Fore.BLUE+"enter a value :(or enter done)")
+    
 # to stop the 
      if num1 == "done" :
           break
@@ -22,12 +24,12 @@ while  True:
      
      #checks the lenght of the value variable
      if len(values) < 2:
-        print("Please enter another number for the operation.")
+        print(Fore.GREEN+"Please enter another number for the operation.")
         continue
    
    
 #input your operator
-     operator=input("please enter your operator")
+     operator=input(Fore.YELLOW+"please enter your operator")
  #making sure it an operator that was entered    
      if operator not in [input_add, input_sub, input_div, input_multi]:
         print("Invalid operator.")

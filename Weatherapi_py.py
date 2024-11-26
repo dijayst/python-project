@@ -1,6 +1,8 @@
 
 import requests
 import json
+from colorama import Fore,Back,Style,init
+init(convert=True)
 
 # country_name = input("enter a the name of a country")
 
@@ -11,7 +13,9 @@ def get_data(url):
     # if its connected we only get some of the data which was printed in main_weather
     if response.status_code == 200:
         data = response.json()
-        print(data)
+      #  print(Fore.BLUE+data)
+        oloramaprint(Fore.BLUE + json.dumps(data, indent=4) + Style.RESET_ALL)
+
         #print(response.text)
        
         main_weather = {
